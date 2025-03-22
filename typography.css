@@ -1,0 +1,73 @@
+/* Tamanhos de Fonte */
+.fs-5 { font-size: 5px; }
+.fs-10 { font-size: 10px; }
+.fs-15 { font-size: 15px; }
+.fs-20 { font-size: 20px; }
+.fs-25 { font-size: 25px; }
+.fs-30 { font-size: 30px; }
+.fs-35 { font-size: 35px; }
+.fs-40 { font-size: 40px; }
+.fs-45 { font-size: 45px; }
+.fs-50 { font-size: 50px; }
+.fs-55 { font-size: 55px; }
+.fs-60 { font-size: 60px; }
+.fs-65 { font-size: 65px; }
+.fs-70 { font-size: 70px; }
+.fs-75 { font-size: 75px; }
+.fs-80 { font-size: 80px; }
+.fs-85 { font-size: 85px; }
+.fs-90 { font-size: 90px; }
+.fs-95 { font-size: 95px; }
+.fs-100 { font-size: 100px; }
+
+/* Peso da Fonte */
+.fw-0 { font-weight: 0; }
+.fw-100 { font-weight: 100; }
+.fw-200 { font-weight: 200; }
+.fw-300 { font-weight: 300; }
+.fw-400 { font-weight: 400; }
+.fw-500 { font-weight: 500; }
+.fw-600 { font-weight: 600; }
+.fw-700 { font-weight: 700; }
+.fw-800 { font-weight: 800; }
+.fw-900 { font-weight: 900; }
+
+/* Alinhamento de Texto */
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-justify { text-align: justify; }
+
+/* Estilo da Fonte */
+.italic { font-style: italic; }
+.normal { font-style: normal; }
+
+/* Transformação do Texto */
+.uppercase { text-transform: uppercase; }
+.lowercase { text-transform: lowercase; }
+.capitalize { text-transform: capitalize; }
+
+/* Espaçamento entre Letras */
+.ls--2 { letter-spacing: -2px; }
+.ls--1 { letter-spacing: -1px; }
+.ls-0 { letter-spacing: 0px; }
+.ls-1 { letter-spacing: 1px; }
+.ls-2 { letter-spacing: 2px; }
+.ls-3 { letter-spacing: 3px; }
+.ls-4 { letter-spacing: 4px; }
+.ls-5 { letter-spacing: 5px; }
+.ls-6 { letter-spacing: 6px; }
+.ls-7 { letter-spacing: 7px; }
+.ls-8 { letter-spacing: 8px; }
+.ls-9 { letter-spacing: 9px; }
+.ls-10 { letter-spacing: 10px; }
+
+/* Altura da Linha */
+.lh-1 { line-height: 1; }
+.lh-1-2 { line-height: 1.2; }
+.lh-1-4 { line-height: 1.4; }
+.lh-1-6 { line-height: 1.6; }
+.lh-1-8 { line-height: 1.8; }
+.lh-2 { line-height: 2; }
+.lh-2-5 { line-height: 2.5; }
+.lh-3 { line-height: 3; }

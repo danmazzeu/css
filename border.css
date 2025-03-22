@@ -1,0 +1,82 @@
+/* Espessura da Borda */
+.b-1 { border-width: 1px; }
+.b-2 { border-width: 2px; }
+.b-3 { border-width: 3px; }
+.b-4 { border-width: 4px; }
+.b-5 { border-width: 5px; }
+.b-6 { border-width: 6px; }
+.b-7 { border-width: 7px; }
+.b-8 { border-width: 8px; }
+.b-9 { border-width: 9px; }
+.b-10 { border-width: 10px; }
+
+/* Espessura da Borda Específica */
+.bt-1 { border-top-width: 1px; }
+.bt-2 { border-top-width: 2px; }
+.bt-3 { border-top-width: 3px; }
+.bt-4 { border-top-width: 4px; }
+.bt-5 { border-top-width: 5px; }
+
+.bb-1 { border-bottom-width: 1px; }
+.bb-2 { border-bottom-width: 2px; }
+.bb-3 { border-bottom-width: 3px; }
+.bb-4 { border-bottom-width: 4px; }
+.bb-5 { border-bottom-width: 5px; }
+
+.bl-1 { border-left-width: 1px; }
+.bl-2 { border-left-width: 2px; }
+.bl-3 { border-left-width: 3px; }
+.bl-4 { border-left-width: 4px; }
+.bl-5 { border-left-width: 5px; }
+
+.br-1 { border-right-width: 1px; }
+.br-2 { border-right-width: 2px; }
+.br-3 { border-right-width: 3px; }
+.br-4 { border-right-width: 4px; }
+.br-5 { border-right-width: 5px; }
+
+/* Bordas Horizontais (X) e Verticais (Y) */
+.bx-1 { border-left-width: 1px; border-right-width: 1px; }
+.bx-2 { border-left-width: 2px; border-right-width: 2px; }
+.bx-3 { border-left-width: 3px; border-right-width: 3px; }
+.bx-4 { border-left-width: 4px; border-right-width: 4px; }
+.bx-5 { border-left-width: 5px; border-right-width: 5px; }
+
+.by-1 { border-top-width: 1px; border-bottom-width: 1px; }
+.by-2 { border-top-width: 2px; border-bottom-width: 2px; }
+.by-3 { border-top-width: 3px; border-bottom-width: 3px; }
+.by-4 { border-top-width: 4px; border-bottom-width: 4px; }
+.by-5 { border-top-width: 5px; border-bottom-width: 5px; }
+
+/* Estilo da Borda */
+.b-solid { border-style: solid; }
+.b-dashed { border-style: dashed; }
+.b-dotted { border-style: dotted; }
+.b-double { border-style: double; }
+.b-none { border-style: none; }
+
+/* Cor da Borda */
+.b-black { border-color: black; }
+.b-white { border-color: white; }
+.b-gray { border-color: gray; }
+.b-red { border-color: red; }
+.b-blue { border-color: blue; }
+.b-green { border-color: green; }
+.b-yellow { border-color: yellow; }
+.b-orange { border-color: orange; }
+.b-purple { border-color: purple; }
+.b-pink { border-color: pink; }
+.b-brown { border-color: brown; }
+
+/* Raio da Borda (Border Radius) */
+.br-5 { border-radius: 5px; }
+.br-10 { border-radius: 10px; }
+.br-15 { border-radius: 15px; }
+.br-20 { border-radius: 20px; }
+.br-25 { border-radius: 25px; }
+.br-30 { border-radius: 30px; }
+.br-35 { border-radius: 35px; }
+.br-40 { border-radius: 40px; }
+.br-45 { border-radius: 45px; }
+.br-50 { border-radius: 50px; }
+.br-rounded { border-radius: 50%; }
