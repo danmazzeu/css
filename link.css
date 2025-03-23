@@ -1,35 +1,26 @@
 /* Estilo padrão para links */
-.a-default { 
-    color: #007bff; /* Azul padrão */
+.a-default,
+.a-active:visited {
+    color: var(--theme);
     text-decoration: none; 
-    transition: color 0.3s ease-in-out; 
 }
 
 /* Cor ao passar o mouse */
-.a-hover:hover { 
-    color: #0056b3; /* Azul mais escuro */
+.a-hover:hover,
+.a-active:active { 
+    color: var(--theme-hover);
     text-decoration: underline; 
 }
 
-/* Cor quando o link está ativo (clicado) */
-.a-active:active { 
-    color: #ff4500; /* Laranja */
-}
-
-/* Cor para links visitados */
-.a-visited:visited { 
-    color: #551a8b; /* Roxo */
-}
-
 /* Remover ou adicionar sublinhado */
-.a-no-underline { text-decoration: none; }
+.a-no-underline { text-decoration: none !important; }
 .a-underline { text-decoration: underline; }
 
 /* Links com efeito de animação */
 .a-fancy { 
     position: relative;
     text-decoration: none;
-    color: #007bff; 
+    color: var(--theme-hover); 
 }
 
 .a-fancy::after { 
@@ -39,7 +30,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #007bff;
+    background-color: var(--theme-hover);
     transform: scaleX(0);
     transition: transform 0.3s ease-in-out;
 }
@@ -51,30 +42,15 @@
 /* Links com borda ao redor */
 .a-bordered { 
     padding: 5px 10px;
-    border: 2px solid #007bff;
+    border: 2px solid var(--theme);
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
 }
 
 .a-bordered:hover { 
-    background-color: #007bff;
+    background-color: var(--theme-hover);
     color: white;
-}
-
-/* Links com efeito de botão */
-.a-button { 
-    background-color: #007bff;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
-    text-decoration: none;
-    display: inline-block;
-    transition: background-color 0.3s ease-in-out;
-}
-
-.a-button:hover { 
-    background-color: #0056b3;
 }
 
 /* Links desativados */

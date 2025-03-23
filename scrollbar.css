@@ -1,16 +1,20 @@
+/* Estilo para a barra de rolagem */
 ::-webkit-scrollbar {
     width: 10px;
 }
 
+/* Estilo para a trilha (área de fundo da barra de rolagem) */
 ::-webkit-scrollbar-track {
     background-color: #000;
 }
 
+/* Estilo para o polegar (parte que pode ser arrastada da barra de rolagem) */
 ::-webkit-scrollbar-thumb {
     background-color: #222;
     border-radius: 10px;
 }
 
+/* Estilo para o polegar da barra de rolagem quando está sendo passado o mouse sobre ele */
 ::-webkit-scrollbar-thumb:hover {
     background-color: #fff;
 }

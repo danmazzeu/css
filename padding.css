@@ -1,3 +1,25 @@
+/* Padding */
+.p-5 { padding: 5px; }
+.p-10 { padding: 10px; }
+.p-15 { padding: 15px; }
+.p-20 { padding: 20px; }
+.p-25 { padding: 25px; }
+.p-30 { padding: 30px; }
+.p-35 { padding: 35px; }
+.p-40 { padding: 40px; }
+.p-45 { padding: 45px; }
+.p-50 { padding: 50px; }
+.p-55 { padding: 55px; }
+.p-60 { padding: 60px; }
+.p-65 { padding: 65px; }
+.p-70 { padding: 70px; }
+.p-75 { padding: 75px; }
+.p-80 { padding: 80px; }
+.p-85 { padding: 85px; }
+.p-90 { padding: 90px; }
+.p-95 { padding: 95px; }
+.p-100 { padding: 100px; }
+
 /* Padding superior */
 .pt-5 { padding-top: 5px; }
 .pt-10 { padding-top: 10px; }

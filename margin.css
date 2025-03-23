@@ -1,3 +1,26 @@
+/* Margens */
+.m-5 { margin: 5px; }
+.m-10 { margin: 10px; }
+.m-15 { margin: 15px; }
+.m-20 { margin: 20px; }
+.m-25 { margin: 25px; }
+.m-30 { margin: 30px; }
+.m-35 { margin: 35px; }
+.m-40 { margin: 40px; }
+.m-45 { margin: 45px; }
+.m-50 { margin: 50px; }
+.m-55 { margin: 55px; }
+.m-60 { margin: 60px; }
+.m-65 { margin: 65px; }
+.m-70 { margin: 70px; }
+.m-75 { margin: 75px; }
+.m-80 { margin: 80px; }
+.m-85 { margin: 85px; }
+.m-90 { margin: 90px; }
+.m-95 { margin: 95px; }
+.m-100 { margin: 100px; }
+.m-auto { margin: auto; }
+
 /* Margens superiores */
 .mt-5 { margin-top: 5px; }
 .mt-10 { margin-top: 10px; }
@@ -19,6 +42,7 @@
 .mt-90 { margin-top: 90px; }
 .mt-95 { margin-top: 95px; }
 .mt-100 { margin-top: 100px; }
+.mt-auto { margin-top: auto; }
 
 /* Margens inferiores */
 .mb-5 { margin-bottom: 5px; }
@@ -41,6 +65,7 @@
 .mb-90 { margin-bottom: 90px; }
 .mb-95 { margin-bottom: 95px; }
 .mb-100 { margin-bottom: 100px; }
+.mb-auto { margin-bottom: auto; }
 
 /* Margens verticais (top + bottom) */
 .my-5 { margin-top: 5px; margin-bottom: 5px; }
@@ -85,6 +110,7 @@
 .ml-90 { margin-left: 90px; }
 .ml-95 { margin-left: 95px; }
 .ml-100 { margin-left: 100px; }
+.ml-auto { margin-left: auto; }
 
 /* Margens direitas */
 .mr-5 { margin-right: 5px; }
@@ -107,6 +133,7 @@
 .mr-90 { margin-right: 90px; }
 .mr-95 { margin-right: 95px; }
 .mr-100 { margin-right: 100px; }
+.mr-auto { margin-right: auto; }
 
 /* Margens horizontais (left + right) */
 .mx-5 { margin-left: 5px; margin-right: 5px; }
@@ -129,3 +156,4 @@
 .mx-90 { margin-left: 90px; margin-right: 90px; }
 .mx-95 { margin-left: 95px; margin-right: 95px; }
 .mx-100 { margin-left: 100px; margin-right: 100px; }
+.mx-auto { margin-left: auto; margin-right: auto; }
