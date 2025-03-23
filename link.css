@@ -1,14 +1,22 @@
 /* Estilo padrão para links */
 .a-default,
 .a-active:visited {
+<<<<<<< HEAD
     color: var(--theme);
+=======
+    color: #fff;
+>>>>>>> refs/remotes/origin/main
     text-decoration: none; 
 }
 
 /* Cor ao passar o mouse */
 .a-hover:hover,
 .a-active:active { 
+<<<<<<< HEAD
     color: var(--theme-hover);
+=======
+    color: #0056b3;
+>>>>>>> refs/remotes/origin/main
     text-decoration: underline; 
 }
 
