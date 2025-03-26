@@ -1,0 +1,46 @@
+/* Text Shadows */
+.text-shadow-none { text-shadow: none; }
+.text-shadow-1 { text-shadow: 1px 1px 2px var(--shadow-black-light); }
+.text-shadow-2 { text-shadow: 2px 2px 4px var(--shadow-black-medium); }
+.text-shadow-3 { text-shadow: 3px 3px 6px var(--shadow-black-dark); }
+.text-shadow-4 { text-shadow: 4px 4px 8px var(--shadow-black-dark); }
+.text-shadow-5 { text-shadow: 5px 5px 10px var(--shadow-black); }
+.text-shadow-light { text-shadow: 1px 1px 3px var(--shadow-white-light); }
+.text-shadow-dark { text-shadow: 2px 2px 5px var(--shadow-black); }
+.text-shadow-blue { text-shadow: 2px 2px 4px var(--shadow-blue); }
+.text-shadow-red { text-shadow: 2px 2px 4px var(--shadow-red); }
+.text-shadow-green { text-shadow: 2px 2px 4px var(--shadow-green); }
+.text-shadow-purple { text-shadow: 2px 2px 4px var(--shadow-purple); }
+
+/* Box Shadows */
+.box-shadow-none { box-shadow: none; }
+.box-shadow-1 { box-shadow: 1px 1px 5px var(--shadow-black-light); }
+.box-shadow-2 { box-shadow: 2px 2px 10px var(--shadow-black-medium); }
+.box-shadow-3 { box-shadow: 3px 3px 15px var(--shadow-black-dark); }
+.box-shadow-4 { box-shadow: 4px 4px 20px var(--shadow-black); }
+.box-shadow-5 { box-shadow: 5px 5px 25px var(--shadow-black); }
+.box-shadow-inset { box-shadow: inset 0px 0px 10px var(--shadow-black-medium); }
+.box-shadow-sm { box-shadow: 0px 2px 5px var(--shadow-black-light); }
+.box-shadow-lg { box-shadow: 0px 8px 15px var(--shadow-black-medium); }
+.box-shadow-xlg { box-shadow: 0px 16px 25px var(--shadow-black-dark); }
+
+/* Multi-layer Box Shadows */
+.box-shadow-1-2 { box-shadow: 1px 1px 5px var(--shadow-black-light), -1px -1px 5px var(--shadow-red); }
+.box-shadow-2-3 { box-shadow: 2px 2px 10px var(--shadow-black-medium), -2px -2px 10px var(--shadow-green); }
+.box-shadow-3-4 { box-shadow: 3px 3px 15px var(--shadow-black-dark), -3px -3px 15px var(--shadow-blue); }
+
+/* Custom Color Box Shadows */
+.box-shadow-custom-blue { box-shadow: 2px 2px 10px var(--shadow-blue); }
+.box-shadow-custom-red { box-shadow: 2px 2px 10px var(--shadow-red); }
+.box-shadow-custom-green { box-shadow: 2px 2px 10px var(--shadow-green); }
+.box-shadow-custom-yellow { box-shadow: 2px 2px 10px var(--shadow-yellow); }
+
+/* Spread and Blur Box Shadows */
+.box-shadow-blur { box-shadow: 0px 0px 10px var(--shadow-black-medium); }
+.box-shadow-spread { box-shadow: 0px 0px 10px 5px var(--shadow-black-medium); }
+
+/* Hover States for Shadows */
+.box-shadow-hover-1:hover { box-shadow: 2px 2px 10px var(--shadow-black-medium); }
+.box-shadow-hover-2:hover { box-shadow: 4px 4px 20px var(--shadow-black-dark); }
+.text-shadow-hover-1:hover { text-shadow: 3px 3px 6px var(--shadow-black-dark); }
+.text-shadow-hover-2:hover { text-shadow: 5px 5px 8px var(--shadow-black); }

@@ -1,0 +1,55 @@
+:root {
+    /* Border */
+    --border-color: #333;
+    --border-top-color: #333;
+    --border-right-color: #333;
+    --border-left-color: #333;
+    --border-bottom-color: #333;
+
+    /* Shadow */
+    --shadow-black: rgba(0, 0, 0, 1);
+    --shadow-black-light: rgba(0, 0, 0, 0.2);
+    --shadow-black-medium: rgba(0, 0, 0, 0.3);
+    --shadow-black-dark: rgba(0, 0, 0, 0.4);
+    --shadow-white-light: rgba(255, 255, 255, 0.6);
+    --shadow-red: rgba(255, 0, 0, 0.6);
+    --shadow-green: rgba(0, 255, 0, 0.6);
+    --shadow-blue: rgba(0, 0, 255, 0.6);
+    --shadow-purple: rgba(128, 0, 128, 0.6);
+    --shadow-yellow: rgba(255, 255, 0, 0.6);
+
+    /* Colors */
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --tertiary-color: #e74c3c;
+    --accent-color: #f39c12;
+        
+    /* Background Colors */
+    --background-color: #f4f6f7;
+    --background-dark: #2c3e50;
+    --background-light: #ecf0f1;
+    --background-muted: #bdc3c7;
+
+    /* Text Colors */
+    --text-color: #2c3e50;
+    --text-muted: #95a5a6;
+    --text-light: #ecf0f1;
+    --text-dark: #34495e;
+    --text-inverse: #ecf0f1;
+        
+    /* Border Colors */
+    --border-color: #dcdcdc;
+    --border-hover: #3498db;
+    --border-focus: #2ecc71;
+
+    /* State Colors (UI) */
+    --success-color: #2ecc71;
+    --error-color: #e74c3c;
+    --warning-color: #f39c12;
+    --info-color: #3498db;
+        
+    /* Hover and Active Colors */
+    --hover-color: rgba(52, 152, 219, 0.1);
+    --active-color: rgba(52, 152, 219, 0.2);
+    --focus-color: rgba(46, 204, 113, 0.2);
+}

@@ -1,0 +1,69 @@
+/* Border Width Combinations */
+.bw-0 { border-width: 0px; }
+.bw-1 { border-width: 1px; }
+.bw-2 { border-width: 2px; }
+.bw-3 { border-width: 3px; }
+.bw-4 { border-width: 4px; }
+.bw-5 { border-width: 5px; }
+
+/* Border Top Width */
+.btw-0 { border-top-width: 0px; }
+.btw-1 { border-top-width: 1px; }
+.btw-2 { border-top-width: 2px; }
+.btw-3 { border-top-width: 3px; }
+.btw-4 { border-top-width: 4px; }
+.btw-5 { border-top-width: 5px; }
+
+/* Border Left Width */
+.blw-0 { border-left-width: 0px; }
+.blw-1 { border-left-width: 1px; }
+.blw-2 { border-left-width: 2px; }
+.blw-3 { border-left-width: 3px; }
+.blw-4 { border-left-width: 4px; }
+.blw-5 { border-left-width: 5px; }
+
+/* Border Right Width */
+.brw-0 { border-right-width: 0px; }
+.brw-1 { border-right-width: 1px; }
+.brw-2 { border-right-width: 2px; }
+.brw-3 { border-right-width: 3px; }
+.brw-4 { border-right-width: 4px; }
+.brw-5 { border-right-width: 5px; }
+
+/* Border Bottom Width */
+.bbw-0 { border-bottom-width: 0px; }
+.bbw-1 { border-bottom-width: 1px; }
+.bbw-2 { border-bottom-width: 2px; }
+.bbw-3 { border-bottom-width: 3px; }
+.bbw-4 { border-bottom-width: 4px; }
+.bbw-5 { border-bottom-width: 5px; }
+
+/* Border Styles */
+.bs-solid { border-style: solid; }
+.bs-dashed { border-style: dashed; }
+.bs-dotted { border-style: dotted; }
+.bs-double { border-style: double; }
+.bs-groove { border-style: groove; }
+.bs-inset { border-style: inset; }
+.bs-outset { border-style: outset; }
+.bs-ridge { border-style: ridge; }
+
+/* Border Radius */
+.br-5 { border-radius: 5px; }
+.br-10 { border-radius: 10px; }
+.br-15 { border-radius: 15px; }
+.br-20 { border-radius: 20px; }
+.br-25 { border-radius: 25px; }
+.br-30 { border-radius: 30px; }
+.br-35 { border-radius: 35px; }
+.br-40 { border-radius: 40px; }
+.br-45 { border-radius: 45px; }
+.br-50 { border-radius: 50px; }
+.br-rounded { border-radius: 50%; }
+
+/* Border Color */
+.btc { border-color: var(--border-color); }
+.btc { border-top-color: var(--border-top-color); }
+.brc { border-right-color: var(--border-right-color); }
+.bbc { border-bottom-color: var(--border-bottom-color); }
+.blc { border-left-color: var(--border-left-color); }

@@ -1,0 +1,15 @@
+/* Width */
+.w-100 { width: 100%; }
+.w-view { width: 100vh; }
+.w-fit { width: fit-content; }
+.w-max { width: max-content; }
+.w-min { width: min-content; }
+.w-auto { width: auto; }
+
+/* Height */
+.h-100 { height: 100%; }
+.h-view { height: 100vh; }
+.h-fit { height: fit-content; }
+.h-max { height: max-content; }
+.h-min { height: min-content; }
+.h-auto { height: auto; }

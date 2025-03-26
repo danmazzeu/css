@@ -1,0 +1,71 @@
+/* Transition - Basic */
+.transition-all { transition: all 0.3s ease; }
+.transition-property { transition-property: all; }
+.transition-duration { transition-duration: 0.3s; }
+.transition-timing-function { transition-timing-function: ease; }
+.transition-delay { transition-delay: 0s; }
+
+/* Transition for specific properties */
+.transition-background-color { transition: background-color 0.3s ease; }
+.transition-color { transition: color 0.3s ease; }
+.transition-opacity { transition: opacity 0.3s ease; }
+.transition-transform { transition: transform 0.3s ease; }
+.transition-height { transition: height 0.3s ease; }
+.transition-width { transition: width 0.3s ease; }
+.transition-border { transition: border 0.3s ease; }
+.transition-border-color { transition: border-color 0.3s ease; }
+.transition-box-shadow { transition: box-shadow 0.3s ease; }
+.transition-visibility { transition: visibility 0.3s ease; }
+.transition-margin { transition: margin 0.3s ease; }
+.transition-padding { transition: padding 0.3s ease; }
+
+/* Transition Duration (in seconds) */
+.transition-duration-1s { transition-duration: 1s; }
+.transition-duration-2s { transition-duration: 2s; }
+.transition-duration-3s { transition-duration: 3s; }
+.transition-duration-5s { transition-duration: 5s; }
+
+/* Transition Timing Function */
+.transition-ease { transition-timing-function: ease; }
+.transition-linear { transition-timing-function: linear; }
+.transition-ease-in { transition-timing-function: ease-in; }
+.transition-ease-out { transition-timing-function: ease-out; }
+.transition-ease-in-out { transition-timing-function: ease-in-out; }
+
+/* Transition Delay */
+.transition-delay-1s { transition-delay: 1s; }
+.transition-delay-2s { transition-delay: 2s; }
+.transition-delay-3s { transition-delay: 3s; }
+.transition-delay-5s { transition-delay: 5s; }
+
+/* Multiple properties transition */
+.transition-multiple {
+    transition: all 0.5s ease-in-out, 
+    background-color 0.3s ease, 
+    transform 1s ease-out;
+}
+
+/* Hover transitions */
+.transition-hover-color:hover { transition: color 0.3s ease; }
+.transition-hover-background-color:hover { transition: background-color 0.3s ease; }
+.transition-hover-opacity:hover { transition: opacity 0.3s ease; }
+.transition-hover-transform:hover { transition: transform 0.3s ease; }
+
+/* Transition on focus */
+.transition-focus-color:focus { transition: color 0.3s ease; }
+.transition-focus-background-color:focus { transition: background-color 0.3s ease; }
+.transition-focus-opacity:focus { transition: opacity 0.3s ease; }
+
+/* Transition on active state */
+.transition-active-color:active { transition: color 0.3s ease; }
+.transition-active-background-color:active { transition: background-color 0.3s ease; }
+
+/* Keyframe animation with transitions */
+.transition-keyframes {
+    animation: slideIn 0.5s ease forwards;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}

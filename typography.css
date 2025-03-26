@@ -1,0 +1,85 @@
+/* Apply Google Fonts to HTML */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@400;600&family=Raleway:wght@400;700&family=Poppins:wght@400;600&family=Source+Sans+Pro:wght@400;700&family=Merriweather:wght@400;700&family=PT+Sans:wght@400;700&display=swap');
+
+/* Font Weights */
+.font-weight-normal { font-weight: normal; }
+.font-weight-bold { font-weight: bold; }
+.font-weight-bolder { font-weight: bolder; }
+.font-weight-light { font-weight: lighter; }
+.font-weight-100 { font-weight: 100; }
+.font-weight-200 { font-weight: 200; }
+.font-weight-300 { font-weight: 300; }
+.font-weight-400 { font-weight: 400; }
+.font-weight-500 { font-weight: 500; }
+.font-weight-600 { font-weight: 600; }
+.font-weight-700 { font-weight: 700; }
+.font-weight-800 { font-weight: 800; }
+.font-weight-900 { font-weight: 900; }
+
+/* Font Styles */
+.font-style-normal { font-style: normal; }
+.font-style-italic { font-style: italic; }
+.font-style-oblique { font-style: oblique; }
+
+/* Text Transform */
+.text-transform-uppercase { text-transform: uppercase; }
+.text-transform-lowercase { text-transform: lowercase; }
+.text-transform-capitalize { text-transform: capitalize; }
+
+/* Font Sizes */
+.font-size-12 { font-size: 12px; }
+.font-size-14 { font-size: 14px; }
+.font-size-16 { font-size: 16px; }
+.font-size-18 { font-size: 18px; }
+.font-size-20 { font-size: 20px; }
+.font-size-24 { font-size: 24px; }
+.font-size-28 { font-size: 28px; }
+.font-size-32 { font-size: 32px; }
+.font-size-36 { font-size: 36px; }
+.font-size-40 { font-size: 40px; }
+.font-size-48 { font-size: 48px; }
+.font-size-56 { font-size: 56px; }
+.font-size-64 { font-size: 64px; }
+
+/* Line Heights */
+.line-height-1 { line-height: 1; }
+.line-height-1-5 { line-height: 1.5; }
+.line-height-2 { line-height: 2; }
+.line-height-2-5 { line-height: 2.5; }
+.line-height-3 { line-height: 3; }
+
+/* Letter Spacing */
+.letter-spacing-0 { letter-spacing: 0; }
+.letter-spacing-1 { letter-spacing: 1px; }
+.letter-spacing-2 { letter-spacing: 2px; }
+.letter-spacing-3 { letter-spacing: 3px; }
+.letter-spacing-4 { letter-spacing: 4px; }
+
+/* Text Alignment */
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-justify { text-align: justify; }
+
+/* Text Decoration */
+.text-decoration-none { text-decoration: none; }
+.text-decoration-underline { text-decoration: underline; }
+.text-decoration-line-through { text-decoration: line-through; }
+.text-decoration-overline { text-decoration: overline; }
+
+/* Text Indentation */
+.text-indent-10 { text-indent: 10px; }
+.text-indent-20 { text-indent: 20px; }
+.text-indent-30 { text-indent: 30px; }
+
+/* Font Families - Google Fonts */
+.font-google-roboto { font-family: 'Roboto', sans-serif; }
+.font-google-open-sans { font-family: 'Open Sans', sans-serif; }
+.font-google-lato { font-family: 'Lato', sans-serif; }
+.font-google-montserrat { font-family: 'Montserrat', sans-serif; }
+.font-google-oswald { font-family: 'Oswald', sans-serif; }
+.font-google-raleway { font-family: 'Raleway', sans-serif; }
+.font-google-poppins { font-family: 'Poppins', sans-serif; }
+.font-google-source-sans-pro { font-family: 'Source Sans Pro', sans-serif; }
+.font-google-merriweather { font-family: 'Merriweather', serif; }
+.font-google-pt-sans { font-family: 'PT Sans', sans-serif; }

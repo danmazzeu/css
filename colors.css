@@ -1,0 +1,46 @@
+/* Section Background Colors */
+.bg-primary { background-color: var(--primary-color); }
+.bg-secondary { background-color: var(--secondary-color); }
+.bg-tertiary { background-color: var(--tertiary-color); }
+.bg-accent { background-color: var(--accent-color); }
+.bg-dark { background-color: var(--background-dark); }
+.bg-light { background-color: var(--background-light); }
+.bg-muted { background-color: var(--background-muted); }
+
+/* Text Colors */
+.text-primary { color: var(--primary-color); }
+.text-secondary { color: var(--secondary-color); }
+.text-tertiary { color: var(--tertiary-color); }
+.text-accent { color: var(--accent-color); }
+.text-dark { color: var(--text-dark); }
+.text-muted { color: var(--text-muted); }
+.text-light { color: var(--text-light); }
+.text-inverse { color: var(--text-inverse); }
+
+/* Border Colors */
+.border-primary { border: 1px solid var(--primary-color); }
+.border-secondary { border: 1px solid var(--secondary-color); }
+.border-tertiary { border: 1px solid var(--tertiary-color); }
+.border-accent { border: 1px solid var(--accent-color); }
+.border-muted { border: 1px solid var(--background-muted); }
+
+/* State Colors */
+.success-bg { background-color: var(--success-color); }
+.error-bg { background-color: var(--error-color); }
+.warning-bg { background-color: var(--warning-color); }
+.info-bg { background-color: var(--info-color); }
+
+.success-text { color: var(--success-color); }
+.error-text { color: var(--error-color); }
+.warning-text { color: var(--warning-color); }
+.info-text { color: var(--info-color); }
+
+/* Hover and Active States */
+.hover-primary:hover { background-color: var(--hover-color); }
+.active-primary:active { background-color: var(--active-color); }
+
+.focus-primary:focus { border-color: var(--focus-color); }
+
+/* Link Background Examples */
+.link-hover { color: var(--primary-color); }
+.link-hover:hover { text-decoration: underline; background-color: var(--hover-color); }
